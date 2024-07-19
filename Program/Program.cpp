@@ -4,41 +4,37 @@
 
 using namespace std;
 
-void MergSort(int list[],int start, int end)
+int Fibonacci(int n)
 {
-	if (start < end)
+	if (n <= 0)
 	{
-		int middle = (start + end) / 2;
-
-		MergSort(list, start, middle);
-		MergSort(list, middle + 1, end);
+		return 0;
+	}
+	else if (n == 1)
+	{
+		return 1;
+	}
+	else
+	{
+		return Fibonacci(n - 1) + Fibonacci(n - 2);
 	}
 }
 
-
-
 int main()
 {
-#pragma region 병합 정렬
 
-	// 하나의 리스트를 두 개의 균등한 크기로 분활하고 분활된 부분 리스트를 정렬한 다음, 두 개의 정렬된 부분 리스트를 합하여
-	// 전체가 정렬된 리스트가 되게 하는 방법.
+#pragma region 동적 계획법
 
-	// 1. 리스트의 길이가 0 또는 1이면 이미 정렬된 것으로 봄.
+	// 특정 범위까지의 값을 구하기 위해서 그것과 다른 범위 까지의 값을 이용하여 효율적으로 값을 구하는 알고리즘.
 
-	// 2. 그렇지 않은 경우 
+	// 메모이제이션
+	// 프로그램이 동일한 계산을 반복해야할때, 이전에 계산한 값을 메모리에 저장함으로써 
+	// 동일한 게산을 반복 수행하는 작업을 제거하여 프로그램의 실행 속도를 향상시키는 기법.
 
-	// 2-1. 정렬되지 않은 리스트를 절반으로 잘라 비슷한 크기의 두 부분 리스트로 나눔.
-
-	// 2-2. 각 부분 리스트를 재귀적으로 병합 정렬을 이용하여 정렬함.
-
-	// 2-3. 두 부분 리스트를 다시 하나의 정렬된 리스트로 병합함.
-
-	int list[SIZE] = { 3,5,2,7,4,1,8,6 };
-
-	MergSort(list, 0, SIZE - 1);
+	cout << Fibonacci(43) << endl;
 
 #pragma endregion
+
 
 	return 0;
 }
