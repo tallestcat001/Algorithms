@@ -1,28 +1,28 @@
 ﻿#include <iostream>
 
-#define SIZE 7
+#define SIZE 11
 
 using namespace std;
-
-int Gap()
-{
-	int gap = SIZE / 2;
-
-	if (gap % 2 == 0)
-	{
-		gap = gap + 1;
-		return gap;
-	}
-}
 
 int main()
 {
 
-#pragma region 쉘 정렬
+#pragma region 최대공약수와 최소공배수
 
-	// 먼 거리의 요소들을 먼저 정렬하여 배열을 부분적으로 정렬한 후 점진적으로 더 작은 간격을 사용하는 정렬 알고리즘.
+	int a = 15;
+	int b = 30;
+	int result = 0;
 
+	for (int i = 2; i <= a && i <= b; i++)
+	{
+		if (a % i == 0 && b % i == 0)
+		{
+			result =+ i;
+		}
+	}
 
+	cout << "최대공약수는 : " << result << endl;
+	
 
 #pragma endregion
 
