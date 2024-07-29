@@ -1,44 +1,33 @@
 ﻿#include <iostream>
-#include <vector>
-#include <queue>
 
-#define SIZE 8
+#define SIZE 7
 
 using namespace std;
 
 class Graph
 {
 private:
-	int degree[SIZE];
-	queue<int> queue;
-	vector<int> graph[SIZE];
+	int parent[SIZE];
 public:
-
+	Graph()
+	{
+		for (int i = 0; i < SIZE; i++)
+		{
+			parent[i] = 0;
+		}
+	}
 };
 
 int main()
 {
 
-#pragma region 위상 정렬
+#pragma region 유니온 파인드
 
-	// 방향 그래프에 존재하는 각 정점들의 선행 순서를 지키며,
-	// 모든 정점을 차례대로 진행하는 알고리즘.
+	// 여러 노드가 존재할 때 어떤 노드가 다른 노드와 연결되어 있는지 확인하는 알고리즘.
 
-	// 사이클이 발생하는 경우 위상 정렬을 수행할 수 없음.
-
-	// DAG (Directed Acyclic Graph) : 사이클이 존재하지 않는 그래프.
-
-	// 시작 복잡도 : O (V + E)
-
-	// 위상 정렬 방법.
-
-	// 1. 진입 차수가 0인 정점을 Queue에 삽입.
-
-	// 2. Queue에서 원소를 꺼내 연결된 모든 간선을 제거함.
-
-	// 3. 간선 제거 이후에 진입 차수가 0인 된 정점을 Queue에 삽입함.
-
-	// 4. Queue가 비어있을 때까지 2번 ~ 3번을 반복합니다.
+	// 유니온 파인드의 시간 복잡도
+	// O(MlogN) : M은 연산의 개수, N은 노드의 개수
+	// M이 N²에 가까울 때는 O(N²lonN)이 됨.
 
 #pragma endregion
 
