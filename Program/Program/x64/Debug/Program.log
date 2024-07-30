@@ -1,2 +1,93 @@
 ﻿  Program.cpp
-  Program.vcxproj -> C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\x64\Debug\Program.exe
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(24,8): error C2365: 'Graph::Edge::x': 재정의: 이전 정의는 '데이터 멤버'입니다.
+  C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(13,7):
+  'Graph::Edge::x' 선언을 참조하십시오.
+  
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(26,4): error C2059: 구문 오류: 'return'
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(26,12): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(29,3): error C2628: 'Graph::Edge' 다음에 'int'이(가) 올 수 없습니다. ';'이 있어야 합니다.
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(31,11): error C3867: 'Graph::y': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(31,11): error C2440: 'return': 'Graph::Edge &(__cdecl Graph::* )(void)'에서 'Graph::Edge &'(으)로 변환할 수 없습니다.
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(36,11): error C3867: 'Graph::distance': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(36,11): error C2440: 'return': 'int &(__cdecl Graph::* )(void)'에서 'int &'(으)로 변환할 수 없습니다.
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(40,9): error C2065: 'Edge': 선언되지 않은 식별자입니다.
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(40,2): error C2923: 'std::vector': 'Edge'은(는) '_Ty' 매개 변수에 대한 올바른 템플릿 형식 인수가 아닙니다.
+  C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(40,9):
+  'Edge' 선언을 참조하십시오.
+  
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(40,2): error C2976: 'std::vector': 템플릿 인수가 너무 적습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
+  'std::vector' 선언을 참조하십시오.
+  
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(40,15): error C2133: 'graph': 알 수 없는 크기입니다.
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(40,15): error C2512: 'std::vector': 사용할 수 있는 적절한 기본 생성자가 없습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
+  'std::vector' 선언을 참조하십시오.
+  
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(42,1): error C2059: 구문 오류: 'public'
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(43,8): error C2059: 구문 오류: ')'
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(44,2): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(44,2): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(50,19): error C3861: 'Edge': 식별자를 찾을 수 없습니다.
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(50,8): error C2663: 'std::vector<_Ty,_Alloc>::push_back': 오버로드된 함수에 'this' 포인터에 대한 유효한 변환이 없습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(874,23):
+  'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)'일 수 있습니다.
+  	C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(50,8):
+  	'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)': 'this' 포인터를 'std::vector'에서 'std::vector<_Ty,_Alloc> &'(으)로 변환할 수 없습니다.
+  		C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(50,3):
+  		원인: 'std::vector'에서 'std::vector<_Ty,_Alloc>'(으)로 변환할 수 없습니다.
+  		C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(50,3):
+  		변환하려면 둘째 사용자 정의 변환 연산자 또는 생성자가 있어야 합니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(870,23):
+  또는       'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)'
+  	C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(50,8):
+  	'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)': 'this' 포인터를 'std::vector'에서 'std::vector<_Ty,_Alloc> &'(으)로 변환할 수 없습니다.
+  		C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(50,3):
+  		원인: 'std::vector'에서 'std::vector<_Ty,_Alloc>'(으)로 변환할 수 없습니다.
+  		C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(50,3):
+  		변환하려면 둘째 사용자 정의 변환 연산자 또는 생성자가 있어야 합니다.
+  C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(50,8):
+  인수 목록 '(unknown-type)'을(를) 일치시키는 동안
+  
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(52,1): error C2059: 구문 오류: '}'
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(52,1): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(69,8): error C2039: 'Insert': 'Graph'의 멤버가 아닙니다.
+  C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(7,7):
+  'Graph' 선언을 참조하십시오.
+  
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(70,8): error C2039: 'Insert': 'Graph'의 멤버가 아닙니다.
+  C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(7,7):
+  'Graph' 선언을 참조하십시오.
+  
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(71,8): error C2039: 'Insert': 'Graph'의 멤버가 아닙니다.
+  C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(7,7):
+  'Graph' 선언을 참조하십시오.
+  
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(72,8): error C2039: 'Insert': 'Graph'의 멤버가 아닙니다.
+  C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(7,7):
+  'Graph' 선언을 참조하십시오.
+  
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(74,8): error C2039: 'Insert': 'Graph'의 멤버가 아닙니다.
+  C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(7,7):
+  'Graph' 선언을 참조하십시오.
+  
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(75,8): error C2039: 'Insert': 'Graph'의 멤버가 아닙니다.
+  C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(7,7):
+  'Graph' 선언을 참조하십시오.
+  
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(77,8): error C2039: 'Insert': 'Graph'의 멤버가 아닙니다.
+  C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(7,7):
+  'Graph' 선언을 참조하십시오.
+  
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(78,8): error C2039: 'Insert': 'Graph'의 멤버가 아닙니다.
+  C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(7,7):
+  'Graph' 선언을 참조하십시오.
+  
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(80,8): error C2039: 'Insert': 'Graph'의 멤버가 아닙니다.
+  C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(7,7):
+  'Graph' 선언을 참조하십시오.
+  
+C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(82,8): error C2039: 'Insert': 'Graph'의 멤버가 아닙니다.
+  C:\Users\shdml\OneDrive\Desktop\Algorithms\Program\Program.cpp(7,7):
+  'Graph' 선언을 참조하십시오.
+  
