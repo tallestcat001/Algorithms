@@ -24,7 +24,7 @@
     <ProjectGuid>{22dadc91-5ee2-4a94-b0c6-03f6dc5ffd71}</ProjectGuid>
     <RootNamespace>Class20Kruskal</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Class20 (Kruskal Algorithm)</ProjectName>
+    <ProjectName>Class20th (Kruskal Algorithm)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
