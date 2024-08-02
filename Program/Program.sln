@@ -43,9 +43,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class18th (Topology Sort)",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class19th (Union Find)", "..\Class19th (Union Find)\Class19th (Union Find).vcxproj", "{E5D9B414-EF45-4C3B-99E6-EB1111D12387}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class20 (Kruskal Algorithm)", "..\Class20 (Kruskal)\Class20 (Kruskal).vcxproj", "{22DADC91-5EE2-4A94-B0C6-03F6DC5FFD71}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class20th (Kruskal Algorithm)", "..\Class20 (Kruskal)\Class20 (Kruskal).vcxproj", "{22DADC91-5EE2-4A94-B0C6-03F6DC5FFD71}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class21th (Prefix Sum)", "..\Class21th (Prefix Sum)\Class21th (Prefix Sum).vcxproj", "{B7A38417-DA4C-4BA1-B680-A031B413DC43}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class22th (Dijkstra)", "..\Class22th (Dijkstra)\Class22th (Dijkstra).vcxproj", "{3F0B4209-6D61-4E58-93FA-C107BC2C19E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +233,14 @@ Global
 		{B7A38417-DA4C-4BA1-B680-A031B413DC43}.Release|x64.Build.0 = Release|x64
 		{B7A38417-DA4C-4BA1-B680-A031B413DC43}.Release|x86.ActiveCfg = Release|Win32
 		{B7A38417-DA4C-4BA1-B680-A031B413DC43}.Release|x86.Build.0 = Release|Win32
+		{3F0B4209-6D61-4E58-93FA-C107BC2C19E5}.Debug|x64.ActiveCfg = Debug|x64
+		{3F0B4209-6D61-4E58-93FA-C107BC2C19E5}.Debug|x64.Build.0 = Debug|x64
+		{3F0B4209-6D61-4E58-93FA-C107BC2C19E5}.Debug|x86.ActiveCfg = Debug|Win32
+		{3F0B4209-6D61-4E58-93FA-C107BC2C19E5}.Debug|x86.Build.0 = Debug|Win32
+		{3F0B4209-6D61-4E58-93FA-C107BC2C19E5}.Release|x64.ActiveCfg = Release|x64
+		{3F0B4209-6D61-4E58-93FA-C107BC2C19E5}.Release|x64.Build.0 = Release|x64
+		{3F0B4209-6D61-4E58-93FA-C107BC2C19E5}.Release|x86.ActiveCfg = Release|Win32
+		{3F0B4209-6D61-4E58-93FA-C107BC2C19E5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
